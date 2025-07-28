@@ -1,0 +1,89 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffdf7;
+  color: #333;
+}
+
+/* Header section */
+.header {
+  background-color: #ffa69e;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+/* Hero section */
+.hero {
+  background-color: #fcd5ce;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+  color: #5e3023;
+}
+
+/* Blog Cards Section */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #d2601a;
+ 
+}
+
+.card p {
+  font-size: 14px;
+ 
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  
+}
+
+.card:hover h3 {
+  color: #9b1d20;
+}
+
+/* Footer section */
+.footer {
+  background-color: #ffa69e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
